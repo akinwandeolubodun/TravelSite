@@ -46,6 +46,67 @@
 
         <!-- Dummy Link for testing purposes -->
         <a href="#">Dummy Link</a>
+
+        <!-- tables create tables in HTML -->
+        <table>
+            <!-- To create a row in html, we use the <tr></tr> tag -->
+            <tr>
+                <!-- To create a header column in a row, we use the <th></th> tag -->
+                <th>Destination</th>
+                <th>Capital</th>
+                <th>Official language</th>
+            </tr>
+            <tr>
+                <!-- <td> tag for table data - a piece of data in a row / column -->
+                <td>Japan</td>   
+                <td>Tokyo</td> 
+                <td>Japanese</td>
+            </tr>
+            <tr>
+                <!-- <td> tag for table data - a piece of data in a row / column -->
+                <td>Italy</td>   
+                <td>Rome</td> 
+                <td>Italian</td>
+            </tr>
+            <tr>
+                <!-- <td> tag for table data - a piece of data in a row / column -->
+                <td>Iceland</td>   
+                <td>Reykjavik</td> 
+                <td>Icelandic</td>
+            </tr>
+        </table>
+
+        <h1>Where do you want to go?</h1>
+        <!-- Create a form -->
+        <form>
+            <!-- Input Creates an input field (can type whatever inside of it) -->
+            <input placeholder="Type the place you want to travel"/>
+
+            <input type="button" value="this is my button"/>
+
+            <p>Select any that apply</p>
+            <label for="">Japan</label>
+            <input type="checkbox" name="Japan" id="Japan"/>
+            <label for="">Italy</label>
+            <input type="checkbox" name="Italy" id="Italy"/>
+            <label for="">Iceland</label>
+            <input type="checkbox" name="Iceland" id="Iceland"/>
+
+            <p>What is your favorite type of travel location?</p>
+            <select>
+            <option value="beach">Beach</option>
+            <option value="Mountains">Mountains</option>
+            <option value="Cities">Cities</option>
+            </select>
+
+            <br />
+            <textarea rows="10" cols="50">Tell me a bit about yourself
+            </textarea>
+            <!-- One line of space with breaktag -->
+            <br />
+            <input type="submit" value="this is my submit button"/>
+        </form>
+
     </body>
 
 </html>
