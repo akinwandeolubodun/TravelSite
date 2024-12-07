@@ -11,7 +11,7 @@
         <h1>Welcome to my Travel Site</h1>
 
         <!-- p is a paragraph and is basically small text for everyday content -->
-        <p>this site is all about where i want to travel</p>
+        <p>This site is all about where i want to travel to.</p>
         <h2>Here are some places I'd like to visit:</h2>
         
         <!-- ul is in unordered lists (bullet points) -->
@@ -30,7 +30,6 @@
                  <img src="./assets/Italy.jpg" width="50" />
                  <a href="https://www.italia.it/en" target="_blank">Italy</a>
         
-                
             </li>
             <li>
                 <img src="./assets/Iceland.jpg" width="50" />
@@ -38,11 +37,18 @@
                  <a href="https://www.visiticeland.com/" target="_blank">Iceland</a>
             
             </li>
+            <li>
+                <img src="./assets/Ethiopia.jpg" width="50" />
+                 <!-- Anchors use href -->
+                 <a href="https://visitethiopia.travel/" target="_blank">Ethiopia</a>
+            
+            </li>
+        
         
         </ul>
 
         <!-- anchor tag (a) let us write links to other html pages / websites -->
-        <a href="https://www.Japan.travel/en/uk/">Link to japan Travel Site</a>
+        <a href="https://www.Japan.travel/en/uk/">Link to Japan Travel Site</a>
 
         <!-- Dummy Link for testing purposes -->
         <a href="#">Dummy Link</a>
@@ -74,6 +80,12 @@
                 <td>Reykjavik</td> 
                 <td>Icelandic</td>
             </tr>
+            <tr>
+                <!-- <td> tag for table data - a piece of data in a row / column -->
+                <td>Ethiopia</td>   
+                <td>Addis Ababa</td> 
+                <td>Amrahic</td>
+            </tr>
         </table>
 
         <h1>Where do you want to go?</h1>
@@ -82,7 +94,7 @@
             <!-- Input Creates an input field (can type whatever inside of it) -->
             <input placeholder="Type the place you want to travel"/>
 
-            <input type="button" value="this is my button"/>
+            <input type="button" value="this is my button" />
 
             <p>Select any that apply</p>
             <label for="">Japan</label>
@@ -91,6 +103,8 @@
             <input type="checkbox" name="Italy" id="Italy"/>
             <label for="">Iceland</label>
             <input type="checkbox" name="Iceland" id="Iceland"/>
+            <label for="">Ethiopia</label>
+            <input type="checkbox" name="Iceland" id="Ethiopia"/>
 
             <p>What is your favorite type of travel location?</p>
             <select>
